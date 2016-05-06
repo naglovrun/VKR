@@ -1,0 +1,21 @@
+{% include "odk/base.html" %}
+
+{% block content %}
+<table>
+    <tr>
+        <td>Имя чувака</td>
+        <td>Возрасточек</td>
+        <td>Скидончик</td>
+    </tr>
+        <tr>
+            <td>{{ client.imya }} {{ client.familiya }}</td>
+            <td>{{ client.vozrast }}</td>
+            <td>{{ client.skidki }}</td>
+        </tr>
+    </table>
+    {% for bilet in bilets %}
+        {{ bilet.id }}
+        <br>
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Leshka_project-master/.idea/Leshka_project-master.iml" filepath="$PROJECT_DIR$/../Leshka_project-master/.idea/Leshka_project-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../blog_with_Vladimir_Borisovich-master/.idea/blog_with_Vladimir_Borisovich-master.iml" filepath="$PROJECT_DIR$/../blog_with_Vladimir_Borisovich-master/.idea/blog_with_Vladimir_Borisovich-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/odk.iml" filepath="$PROJECT_DIR$/.idea/odk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled/.idea/untitled.iml" filepath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>

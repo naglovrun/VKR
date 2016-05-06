@@ -1,0 +1,28 @@
+{% include "core/base.html" %}
+
+{% block content %}
+    <form action="{% url 'odk.views.client.list_clients' %}" method="get">
+        <table>
+            {{ form }}
+        </table>
+        <button type="submit"> Нажми на меня </button>
+    </form>
+
+<table>
+    <tr>
+        <td>Имя чувака</td>
+        <td>Возрасточек</td>
+        <td>Скидончик</td>
+        <td>href</td>
+    </tr>
+    {% for client in clients %}
+        <tr>
+            <td>{{ client.imya }} {{ client.familiya }}</td>
+            <td>{{ client.vozrast }}</td>
+            <td>{{ client.skidki }}</td>
+            <td><a href="/odk/client/{{ client.id }}">href</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <a href="/odk/list_clients/">vk</a>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+    <form action="{% url 'odk.views.client.create' %}" method="get">
+    <table>
+        {{ form }}
+        <button type="submit"> Нажми на меня </button>
+    </table>
+    </form>
+
+
+{% endblock %}
