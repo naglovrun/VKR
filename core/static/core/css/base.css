@@ -5,3 +5,8 @@ body {
 h2 {
     color: #204d74;
 }
+
+.content {
+        background-color: #e7ffdd;
+        border-radius: 4%;
+    }
